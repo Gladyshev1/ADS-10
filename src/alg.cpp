@@ -25,8 +25,7 @@ std::vector<char> getPerm(const MYtree& tree, int X) {
             root = root->vecch[1];
             vec.push_back(root->data);
            
-        }
-        else {
+        } else {
             root = root->vecch[0];
             vec.push_back(root->data);
         }
